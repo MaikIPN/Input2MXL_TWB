@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Customer Name="TWR01" Trigram="G12C8">
+<InputFile CustomerRequestUID="20230913211600" Name="G12C8_TWR01_0_20230913211600_EVTWPAN2710201.txt.xml" DateTimeOfReception="20230913211600" CardQuantity="1">
+<Batch BatchID="G12C8211600" CardQuantity="1" CardType="OE_TEST" ArtWork="4121" GraphRef="" ElecRef="">
+<SharedData>
+    <ElectricalData>
+        <EMVApplication AID="A0000000031010">
+            <KeyAlias alias="RSA" label="G12C8.LIVE.PK417900.RSA.01">
+                <Certificate index="09" iin="417900FF" type="VIS"/>
+            </KeyAlias>
+        </EMVApplication>
+        <EMVApplication AID="325041592E5359532E4444463031"/>
+    </ElectricalData>
+    <KeyAliasList>
+        <KeyAlias alias="KEK" label="G12C8.LIVE.KEKPETWR1.KEK.01"/>
+        <KeyAlias alias="PEK" label="G12C8.LIVE.KEKPETWR1.KEK.01"/>
+        <KeyAlias alias="KTU_KEK" label="G12C8.LIVE.KEKPETWR1.KEK.01"/>
+        <KeyAlias alias="TKCK" label="MLT.LIVE.TKCK0203.RSA.03"/>
+        <KeyAlias alias="APPK" label="G12C8.LIVE.APPK.RSA.01"/>
+        <KeyAlias alias="HASH" label="MLT.LIVE.HASH0274.RSA.00"/>
+        <!--  <KeyAlias alias="KEKPIN" label="G09D0.LIVE.KEK.KEK.01"/> -->
+        <KeyAlias alias="IMKAC" label="G12C8.LIVE.WRVIDBAC.IMKAC.10"/>
+        <KeyAlias alias="IMKI" label="G12C8.LIVE.TWRVIDBAC.IMKI.01"/>
+        <KeyAlias alias="IMKC" label="G12C8.LIVE.TWRVIDBC.IMKC.01"/>
+        <!--  <KeyAlias alias="IMKIDN" label="G12C8.LIVE.TWRMCDBIDN.IMKIDN.01"/>  -->
+    </KeyAliasList>
+</SharedData>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Card CardID="417********625" PAN="4179000101996251" CardHolderName="SANTIAGO RODRIGUEZ C." SatelliteUID="TWR">
+<CardGraphical GraphValue="343433" GraphPos="1"/>
+<CardGraphical GraphValue="53414E544941474F20524F4452494755455A20432E" GraphPos="2"/>
+<CardMagnetical MagneticalValue="B4179000101996251^RODRIGUEZ C./SANTIAGO     ^2806621106260000000000085000000" MagPos="1"/>
+<CardMagnetical MagneticalValue="4179000101996251=28066211062608500000" MagPos="2"/>
+<CardMagnetical MagneticalValue="0000000000000000000000000" MagPos="3"/>
+<ElectricalData>
+<EMVApplication AID="A0000000031010">
+<EMVElement Tag="57" Value="4179000101996251D28066211062646100000F"/>
+<EMVElement Tag="8F" Value="09"/>
+<EMVElement Tag="5F34" Value="00"/>
+<EMVElement Tag="DF34" Value="5F340100"/>
+</EMVApplication>
+</ElectricalData>
+</Card>
+</Batch>
+</InputFile>
+</Customer>

@@ -1,0 +1,24 @@
+<SharedData>
+    <ElectricalData>
+        <EMVApplication AID="A0000000041010">
+            <KeyAlias alias="RSA" label="G12C8.LIVE.M250006.RSA.01">
+                <Certificate index="06" iin="250006FF" type="MCI"/>
+            </KeyAlias>
+        </EMVApplication>
+        <EMVApplication AID="325041592E5359532E4444463031"/>
+    </ElectricalData>
+    <KeyAliasList>
+        <KeyAlias alias="KEK" label="G12C8.LIVE.KEKPETWR1.KEK.01"/>
+        <KeyAlias alias="PEK" label="G12C8.LIVE.KEKPETWR1.KEK.01"/>
+        <KeyAlias alias="KTU_KEK" label="G12C8.LIVE.KEKPETWR1.KEK.01"/>
+        <KeyAlias alias="TKCK" label="MLT.LIVE.TKCK0203.RSA.03"/>
+        <KeyAlias alias="APPK" label="G12C8.LIVE.APPK.RSA.01"/>
+        <KeyAlias alias="HASH" label="MLT.LIVE.HASH0274.RSA.00"/>
+        <!--  <KeyAlias alias="KEKPIN" label="G09D0.LIVE.KEK.KEK.01"/> -->
+        <KeyAlias alias="IMKAC" label="G12C8.LIVE.WRMCCR.IMKAC.01"/>
+        <KeyAlias alias="IMKI" label="G12C8.LIVE.WRMCCR.IMKI.01"/>
+        <KeyAlias alias="IMKC" label="G12C8.LIVE.WRMCCR.IMKC.01"/>
+        <KeyAlias alias="IMKIDN" label="G12C8.LIVE.TWRMCDBIDN.IMKIDN.01"/>
+    </KeyAliasList>
+</SharedData>
+
